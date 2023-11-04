@@ -1,55 +1,49 @@
-# "Long Light" Landing Page
+# Image Slider Project
 
-![Long Light Logo](/Long_LightsCover.jpg)
-[Visit My Project on Netlify](https://long-lights.netlify.app/)
+![Image Slider](/images/ImageSliderCover.jpg)
 
-Welcome to the "Long Light" landing page. In this document, we'll explain the structure and functionality of the landing page, along with the corresponding CSS and JavaScript.
+[Visit My Project on Netlify](https://nenorvalls-image-slider.netlify.app/)
 
-## Table of Contents
-- [HTML Structure](#html-structure)
-- [JavaScript Functionality](#javascript-functionality)
-- [CSS Styling](#css-styling)
+## Overview
 
-## HTML Structure <a name="html-structure"></a>
+This project is a simple and visually appealing image slider implemented using HTML, CSS, and JavaScript. The slider allows you to navigate through a series of images with smooth transition effects.
 
-The HTML structure of the "Long Light" landing page is organized as follows:
 
-1. **`<head>` Section**: This section contains metadata, including the character set, viewport settings, and a link to an external stylesheet.
+## Features
 
-2. **`<body>` Section**: The main content of the landing page is within the `<body>` section. Here's what you'll find:
+- [x] **Responsive Design**: Adapts to different screen sizes for a seamless experience.
+- [x] **Automatic Slideshow**: Images transition automatically at regular intervals.
 
-   - **Image Container**: An image of "Long Light" is displayed with a border and centered on the page.
+- [x] **Navigation Buttons**: Intuitive `Previous` and `Next` buttons for manual control.
 
-   - **Heading**: The heading "Want to go the extra mile?" is centered on the page.
+- [x] **Customized Transition Effects**: Each slide features a unique transition effect.
 
-   - **Philosophy Description**: The landing page features a philosophy description represented by paragraphs. This description expresses "Long Light's" commitment to guiding users towards creativity and innovation.
+- [x] **Background Animation**: Dynamic CSS gradient background for visual interest.
 
-   - **Get Started Button**: A button with the text "Get Started" is provided to encourage users to take action.
+## Project Structure
 
-   - **Image Slider Container**: Below the philosophy description, there is an image slider that showcases multiple images. Users can navigate through these images.
+- [x] **HTML (`index.html`)**: Defines the structure of the webpage with image elements in a slider container.
 
-   - **Previous and Next Buttons**: These buttons allow users to navigate between the images in the slider.
+- [x] **CSS (`styles.css`)**: Manages styling, including slider appearance and background animation.
 
-3. **JavaScript Script**: The JavaScript code for controlling the image slider is included at the end of the HTML document.
+- [x] **JavaScript (`scripts.js`)**: Implements logic for transitioning between slides and controlling the slideshow.
 
-## JavaScript Functionality <a name="javascript-functionality"></a>
+## Usage
 
-The JavaScript code in the provided script implements the functionality for the image slider. Here's a summary of its functionality:
+1. Open the `index.html` file in a web browser to view the image slider.
 
-- `showSlide(index)`: This function is responsible for showing a specific slide. It takes an index as a parameter and updates the slider to display the corresponding image. If the provided index is out of range, it loops to the beginning or end of the slider.
+2. Explore the interactive features, including automatic slideshow and manual navigation.
 
-- `nextSlide()`: This function increments the index to show the next slide. It calls `showSlide` to update the display.
+## Customization
 
-- `prevSlide()`: This function decrements the index to show the previous slide. It also calls `showSlide` to update the display.
+- [x] **Images**: Replace sample images in the `./images/` directory with your own images.
 
-- `setInterval(nextSlide, 3000)`: An interval is set to automatically transition to the next slide every 3 seconds (3000 milliseconds).
+- [x] **Transition Effects**: Adjust effects in `styles.css` for different visual experiences.
 
-## CSS Styling <a name="css-styling"></a>
+- [x] **Background Animation**: Modify background animation properties for a unique backdrop.
 
-The provided CSS styles are used to style the landing page. Here are some key styles:
+## Responsive Design
 
-- `body`: Sets the background color to a deep blue and text color to white.
+- [x] Includes responsive design styles for a pleasant experience on various devices.
 
-- Styles for various elements such as headings, buttons, containers, and images are provided to create a visually appealing and responsive layout.
-
-- Media queries are used to adjust styles for smaller screens (max-width: 600px) to ensure a good user experience on mobile devices.
+### Responsive Styles
